@@ -3,6 +3,7 @@ body {
     background-color: #f0f0f0;
     padding: 20px;
     margin: 0;
+    box-sizing: border-box;
 }
 
 .masonry {
@@ -32,51 +33,56 @@ body {
 
 /* Specific dimensions and colors for each item */
 .item1 {
-    grid-row: span 15;
+    grid-row: span 10;
     background-color: #ff6f61;
 }
 
 .item2 {
-    grid-row: span 20;
+    grid-row: span 13;
     background-color: #6b5b95;
 }
 
 .item3 {
-    grid-row: span 10;
+    grid-row: span 8;
     background-color: #88b04b;
 }
 
 .item4 {
-    grid-row: span 25;
+    grid-row: span 17;
     background-color: #d65076;
 }
 
 .item5 {
-    grid-row: span 30;
+    grid-row: span 20;
     background-color: #ffb347;
 }
 
 .item6 {
-    grid-row: span 15;
+    grid-row: span 10;
     background-color: #45b8ac;
 }
 
 .item7 {
-    grid-row: span 20;
+    grid-row: span 13;
     background-color: #e94b3c;
 }
 
 .item8 {
-    grid-row: span 10;
+    grid-row: span 8;
     background-color: #6c5b7b;
 }
 
 .item9 {
-    grid-row: span 25;
+    grid-row: span 11;
     background-color: #00a86b;
 }
 
 .item10 {
-    grid-row: span 30;
+    grid-row: span 8;
     background-color: #b565a7;
+}
+
+.item11 {
+    grid-row: span 4;
+    background-color: #ff9f43;
 }
